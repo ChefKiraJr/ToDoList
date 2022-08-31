@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "toDoList": [
+    {
+      "activity": "buying a gift",
+      "id": 1661954483865
+    },
+    {
+      "activity": "push up 100x",
+      "id": 1661954489261
+    },
+    {
+      "activity": "swimming",
+      "id": 1661954493737
+    },
+    {
+      "activity": "main gaple di kantek",
+      "id": 1661955008425
+    },
+    {
+      "activity": "jalan jalan ke kota tua",
+      "id": 1661955015490
+    },
+    {
+      "activity": "dds",
+      "id": 1661955689351
+    },
+    {
+      "activity": "fdfd",
+      "id": 1661955690872
+    },
+    {
+      "activity": "sdsd",
+      "id": 1661955693773
+    },
+    {
+      "activity": "fdfd",
+      "id": 1661955696135
+    }
+  ]
+}
