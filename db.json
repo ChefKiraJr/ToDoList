@@ -18,40 +18,24 @@
   },
   "toDoList": [
     {
-      "activity": "buying a gift",
-      "id": 1661954483865
+      "activity": "Morning workout",
+      "id": 1668080170480
     },
     {
-      "activity": "push up 100x",
-      "id": 1661954489261
+      "activity": "Take a car to car wash",
+      "id": 1668080402854
     },
     {
-      "activity": "swimming",
-      "id": 1661954493737
+      "activity": "Buy a gift",
+      "id": 1668080414274
     },
     {
-      "activity": "main gaple di kantek",
-      "id": 1661955008425
+      "activity": "Buy a flower",
+      "id": 1668080441197
     },
     {
-      "activity": "jalan jalan ke kota tua",
-      "id": 1661955015490
-    },
-    {
-      "activity": "dds",
-      "id": 1661955689351
-    },
-    {
-      "activity": "fdfd",
-      "id": 1661955690872
-    },
-    {
-      "activity": "sdsd",
-      "id": 1661955693773
-    },
-    {
-      "activity": "fdfd",
-      "id": 1661955696135
+      "activity": "Take dinner at ramen shop",
+      "id": 1668080490605
     }
   ]
 }

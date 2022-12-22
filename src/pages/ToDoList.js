@@ -74,16 +74,16 @@ const ToDoList = () => {
                 <Input
                   name="activity"
                   value={input.activity}
-                  borderColor={'blueviolet'}
+                  borderColor={'#06283d'}
                   onChange={(event) => handleChange(event)}
                 />
                 <InputRightAddon
                   className="add-button"
                   children="Edit Todo"
                   onClick={handleSubmit}
+                  borderColor={'#06283d'}
+                  backgroundColor={'#06283d'}
                   color="white"
-                  backgroundColor="blueviolet"
-                  borderColor="blueviolet"
                 />
               </InputGroup>
             ) : (
@@ -91,17 +91,17 @@ const ToDoList = () => {
                 <Input
                   name="activity"
                   value={input.activity}
-                  borderColor={'blueviolet'}
                   placeholder="Input your plan here!"
+                  borderColor={'#06283d'}
                   onChange={(event) => handleChange(event)}
                 />
                 <InputRightAddon
                   className="add-button"
                   children="Add Todo"
                   onClick={handleSubmit}
+                  borderColor={'#06283d'}
+                  backgroundColor={'#06283d'}
                   color="white"
-                  backgroundColor="blueviolet"
-                  borderColor="blueviolet"
                 />
               </InputGroup>
             )}
@@ -112,13 +112,7 @@ const ToDoList = () => {
                 return (
                   <Box
                     className="todo-content__main"
-                    backgroundColor={
-                      index === 0 || index % 4 === 0
-                        ? 'blue'
-                        : index % 2 === 0
-                        ? 'green'
-                        : 'magenta'
-                    }
+                    backgroundColor={'#256D85'}
                   >
                     <div className="todo-content__text">{value.activity}</div>
                     <div className="todo-content__icon">
