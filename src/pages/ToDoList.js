@@ -57,7 +57,6 @@ const ToDoList = () => {
     temp.id = value.id;
     setInput(temp);
   };
-  console.log(input);
   useEffect(() => {
     fetchData();
   }, []);
